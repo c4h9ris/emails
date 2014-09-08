@@ -1,0 +1,496 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Fluid Email test</title>
+<style type="text/css">
+	body {-webkit-text-size-adjust:none; -ms-text-size-adjust:100%;-webkit-font-smoothing:antialiased; margin:0; padding:0; font-family:Arial, Helvetica, sans-serif;} 
+	table {border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;margin:0; padding:0;} 
+	td {border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;margin:0; padding:0;}
+  	img {height: auto;}
+  	.content {width: 100%; max-width: 600px;}
+  	.readonline {padding: 0px 14px 10px 14px; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:13px; color:#FFFFFF;}
+  	.header {padding: 40px 30px 20px 30px;}
+  	.headline{padding:0px 24px 0px 24px;}
+	.headline1{padding:0px 22px 0px 23px;}
+  	.headline2{padding:20px 30px 20px 30px;}
+	.list{padding:0px 40px 0px 40px;}
+  	.innerpadding {padding: 30px 30px 30px 30px;}
+  	.borderbottom {border-bottom: 1px solid #f2eeed;}
+  	.subhead {font-size: 15px; color: #ffffff; font-family: sans-serif; letter-spacing: 10px;}
+  	.bodycopy {color: #6d6e71; font-family: Arial, Helvetica, sans-serif;}
+  	.h1 {}
+  	.h2 {padding: 0 0 15px 0; font-size: 24px; line-height: 28px; font-weight: bold;}
+  	.bodycopy {font-size: 15px; line-height: 16px; padding:20px 24px 20px 24px; }
+  	.boxcopy {font-size: 12px; line-height: 14px; color: #6d6e71; font-family: Arial, Helvetica, sans-serif;}
+  	.button {text-align: center; font-size: 18px; font-family: sans-serif; font-weight: bold; padding: 0 30px 0 30px;}
+  	.button a {color: #ffffff; text-decoration: none;}
+  	.footer {padding: 20px 30px 15px 30px;}
+  	.footercopy {font-family: sans-serif; font-size: 14px; color: #ffffff;}
+  	.footercopy a {color: #ffffff; text-decoration: underline;}
+  	.fix {display: block;}
+
+	  @media only screen and (max-width: 550px), screen and (max-width: 550px) {
+	  body[yahoo] .hide {display: none!important;}
+	  body[yahoo] .buttonwrapper {background-color: transparent!important;}
+	  body[yahoo] .button {padding: 0px!important;}
+	  body[yahoo] .button a {background-color: #e05443; padding: 15px 15px 13px!important;}
+	  body[yahoo] .unsubscribe {display: block; margin-top: 20px; padding: 10px 50px; background: #2f3942; border-radius: 5px; text-decoration: none!important; font-weight: bold;}
+	  table[class=emailwrapto100pc], img[class=fix], table[class=emailfootercol]{width:100% !important; height:auto !important;}
+	  table[class=col252]{font-size:12px !important; line-height:13px !important; width:100% !important; height:auto !important; float:left !important;}
+	  table[class=col272]{font-size:12px !important; line-height:13px !important; width:100% !important; height:auto !important; float:left !important;}
+	  table[class=footerleft]{font-size:12px !important; line-height:13px !important; width:50% !important; height:auto !important; float:left !important;}
+	  table[class=footerright]{font-size:12px !important; line-height:13px !important; width:50% !important; height:auto !important; float:right !important;}
+	  td[class=fontshrink]{font-size:16px !important; line-height:20px !important; padding-left:10px !important; padding-bottom:5px !important;}
+	  td[class=fontshrink2]{font-size:16px !important; line-height:20px !important; padding-left:10px !important;}
+	  td[class=footershrink2]{font-size:12px !important; line-height:18px !important;}
+	  td[class=headline2]{padding:20px 0px 20px 0px;}
+	  td[class=headline1]{padding:0px 0px 0px 0px !important;}
+	  td[class=bodycopy]{padding:20px 24px 20px 24px;}
+	  img[class=emailnomob]{display:none !important;}
+	  
+	  div[class=phoneonly-img1]{
+		display:block !important;
+		overflow:visible !important;
+		visibility:visible !important;
+		max-height: 100% !important;
+		min-height: 156px !important;
+		mso-hide: all;
+		width:100% !important;
+		height:auto !important;
+		}
+		
+		img[class=phoneonly-img1]{
+		display:block !important;
+		overflow:visible !important;
+		visibility:visible !important;
+		width:100% !important;
+		height:auto !important;
+		text-align:center !important;
+		}
+	  }
+
+	  @media only screen and (min-width: 600px) {
+		.content {width: 600px !important;}
+		.col425 {width: 425px!important;}
+		.col380 {width: 380px!important;}
+		.col272 {width: 272px!important;}
+		.col252 {width: 252px!important;}
+		.footerleft {width: 265px!important;}
+		.footerright {width: 249px!important;}
+		.desktop{font-size: 16px; line-height: 18px; color: #6d6e71; font-family: Arial, Helvetica, sans-serif;}
+		}
+
+  </style>
+</head>
+
+<body yahoo bgcolor="#ffffff" style="-webkit-text-size-adjust:none; -ms-text-size-adjust: 100%; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;margin:0; padding:0;">
+<table width="100%" bgcolor="#f6f4f0" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+  		<td align="center" valign="top">
+			<!--[if (gte mso 9)|(IE)]>
+			<table width="600" align="center" cellpadding="0" cellspacing="0" border="0">
+				<tr>
+					<td>
+					<![endif]--> 
+						<table cellpadding="0" cellspacing="0" width="100%" border="0" class="content" align="center">
+							<tr>
+								<td style="font-size:9px; line-height:9px; color:#000000; font-family:Arial, Helvetica, sans-serif" bgcolor="#000000">This Text can be used to expand on the subject line but is hidden in the email...</td>
+							</tr>
+							<tr>
+								<td align="right" bgcolor="#000000" class="readonline" valign="top">Can't see images?<br />Click here to load them superfast</td>
+							</tr>
+							<tr>
+								<td bgcolor="#f6f4f0">
+									<table cellpadding="0" cellspacing="0" border="0" bgcolor="#f6f4f0" class="content" width="100%">
+										<tr>
+											<td class="headline1"><img src="images/headline.png" width="100%" style="display:block" class="emailnomob"/>
+											<!--[if !mso]><!-->
+												<div class="phoneonly-img1" style="font-size: 0; max-height: 0; overflow: hidden; display: none;">
+													<img src="images/headline-mobile.png" width="320" height="156"class="phoneonly-img1" style="display:block" border="0" />
+												</div>
+											<!--<![endif]-->
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td bgcolor="#f6f4f0">
+									<table cellpadding="0" cellspacing="0" border="0" bgcolor="#f6f4f0" class="content" width="100%">
+										<tr>
+											<td><img src="images/mainpic.jpg" width="100%" class="fix" /></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td bgcolor="#f6f4f0">
+									<table cellpadding="0" cellspacing="0" border="0" bgcolor="#f6f4f0" class="content" width="100%" align="center">
+										<tr>
+											<td class="bodycopy" align="left"><strong>Hello &lt;NAME&gt;</strong>,<br /><br />This month, we&rsquo;re giving away a pair of &lsquo;money can&rsquo;t buy&rsquo; tickets to the EE British Academy Film Awards in London. Watch the stars arrive and enjoy the ceremony, with dinner and hotel included.</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td align="left" valign="top" class="headline">
+									<table border="0" cellspacing="0" cellpadding="0" style="height:44px;" class="emailwrapto100pc">
+										<tr>
+											<td width="17" rowspan="2"><a href="http://explore.ee.co.uk/ee-network/why-choose-EE/more-great-reasons" target="_blank" title="FIND OUT MORE"><img src="images/buttonl.png" width="17" height="44" border="0" style="display:block" /></a></td>
+											<td height="3" valign="middle" bgcolor="#009c9c" style="font-size:1px;line-height:1px;width:auto !important;">&nbsp;</td>
+											<td width="16" rowspan="2"><a href="http://explore.ee.co.uk/ee-network/why-choose-EE/more-great-reasons" target="_blank" title="FIND OUT MORE"><img src="images/buttonr.png" width="16" height="44" border="0" style="display:block" /></a></td>
+										</tr>
+										<tr>
+											<td height="37" valign="middle" align="center" bgcolor="#009c9c" style="font-family: Arial, Helvetica, sans-serif; font-size:12px;"><a style="text-decoration:none; color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-weight:bold; font-size:12px;" href="http://explore.ee.co.uk/ee-network/why-choose-EE/more-great-reasons" target="_blank" title="FIND OUT MORE">FIND&nbsp;OUT&nbsp;MORE</a></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td height="25" style="font-size:25px; line-height:25px;"></td>
+							</tr>
+							<tr>
+								<td bgcolor="#FFFFFF">
+									<table cellpadding="0" cellspacing="0" border="0" bgcolor="#ffffff" class="content" align="center" width="100%">
+										<tr>
+											<td class="headline2" align="center"><img src="images/moretoexplore.png" width="100%" class="fix" /></td>
+										</tr>
+										<!-- START BOX ONE -->
+										<tr>
+											<td class="headline">
+												<!--[if (gte mso 9)|(IE)]>
+												<table width="252" cellpadding="0" cellspacing="0" border="0" align="left">
+													<tr>
+														<td>
+														<![endif]--> 
+															<table align="left" style="width: 100%; max-width: 252px;" class="col252" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF">
+																<tr>
+																	<td style="padding-bottom:15px;"><img src="images/movie1.jpg" width="100%" class="fix" /></td>
+																</tr>
+															</table>
+														<!--[if (gte mso 9)|(IE)]>
+														</td>
+													</tr>
+												</table>
+												<![endif]-->
+												<!--[if (gte mso 9)|(IE)]>
+													<table width="272" cellpadding="0" cellspacing="0" border="0" align="right">
+														<tr>
+															<td>
+															<![endif]--> 
+																<table class="col272" cellpadding="0" align="right" cellspacing="0" border="0" bgcolor="#FFFFFF" style=" width: 100%; max-width: 272px;">
+																	<tr>
+																		<td valign="top" align="left" style="font-family:Arial, Helvetica, sans-serif; color:#009c9c; font-size:16px; line-height:20px; font-weight:bold; padding-bottom:15px;">Duis mollis commodo eleifend.</td>
+																	</tr>
+																	<tr>
+																		<td align="left" style="font-family:Arial, Helvetica, sans-serif; color:#6d6e71; font-size:16px; line-height:20px; padding-bottom:15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac urna justo...</td>
+																	</tr>
+																</table>
+															<!--[if (gte mso 9)|(IE)]>
+															</td>
+														</tr>
+													</table>
+													<![endif]-->
+											</td>
+										</tr>
+										<!-- END BOX ONE -->
+										<!-- START BOX TWO -->
+										<tr>
+											<td class="headline">
+												<!--[if (gte mso 9)|(IE)]>
+												<table width="252" cellpadding="0" cellspacing="0" border="0" align="left">
+													<tr>
+														<td>
+														<![endif]--> 
+															<table align="left" style="width: 100%; max-width: 252px;" class="col252" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF">
+																<tr>
+																	<td style="padding-bottom:15px;"><img src="images/img2.jpg" width="100%" class="fix" /></td>
+																</tr>
+															</table>
+														<!--[if (gte mso 9)|(IE)]>
+														</td>
+													</tr>
+												</table>
+												<![endif]-->
+												<!--[if (gte mso 9)|(IE)]>
+													<table width="272" cellpadding="0" cellspacing="0" border="0" align="right">
+														<tr>
+															<td>
+															<![endif]--> 
+																<table class="col272" cellpadding="0" align="right" cellspacing="0" border="0" bgcolor="#FFFFFF" style=" width: 100%; max-width: 272px;">
+																	<tr>
+																		<td class="fontshrink" valign="top" align="left" style="font-family:Arial, Helvetica, sans-serif; color:#009c9c; font-size:15px; line-height:16px; font-weight:bold; padding-bottom:15px;">Duis mollis commodo eleifend.</td>
+																	</tr>
+																	<tr>
+																		<td class="fontshrink2" align="left" style="font-family:Arial, Helvetica, sans-serif; color:#6d6e71; font-size:15px; line-height:16px; padding-bottom:15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac urna justo...</td>
+																	</tr>
+																</table>
+															<!--[if (gte mso 9)|(IE)]>
+															</td>
+														</tr>
+													</table>
+													<![endif]-->
+											</td>
+										</tr>
+										<!-- END BOX TWO -->
+										<!-- START BOX THREE -->
+										<tr>
+											<td class="headline">
+												<!--[if (gte mso 9)|(IE)]>
+												<table width="252" cellpadding="0" cellspacing="0" border="0" align="left">
+													<tr>
+														<td>
+														<![endif]--> 
+															<table align="left" style="width: 100%; max-width: 252px;" class="col252" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF">
+																<tr>
+																	<td style="padding-bottom:15px;"><img src="images/img3.jpg" width="100%" class="fix" /></td>
+																</tr>
+															</table>
+														<!--[if (gte mso 9)|(IE)]>
+														</td>
+													</tr>
+												</table>
+												<![endif]-->
+												<!--[if (gte mso 9)|(IE)]>
+													<table width="272" cellpadding="0" cellspacing="0" border="0" align="right">
+														<tr>
+															<td>
+															<![endif]--> 
+																<table class="col272" cellpadding="0" align="right" cellspacing="0" border="0" bgcolor="#FFFFFF" style=" width: 100%; max-width: 272px;">
+																	<tr>
+																		<td class="fontshrink" valign="top" align="left" style="font-family:Arial, Helvetica, sans-serif; color:#009c9c; font-size:15px; line-height:16px; font-weight:bold; padding-bottom:15px;">Duis mollis commodo eleifend.</td>
+																	</tr>
+																	<tr>
+																		<td class="fontshrink2" align="left" style="font-family:Arial, Helvetica, sans-serif; color:#6d6e71; font-size:15px; line-height:16px; padding-bottom:15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac urna justo...</td>
+																	</tr>
+																</table>
+															<!--[if (gte mso 9)|(IE)]>
+															</td>
+														</tr>
+													</table>
+													<![endif]-->
+											</td>
+										</tr>
+										<!-- END BOX THREE -->
+										<!--START BOX FOUR -->
+										<tr>
+											<td class="headline">
+												<!--[if (gte mso 9)|(IE)]>
+												<table width="252" cellpadding="0" cellspacing="0" border="0" align="left">
+													<tr>
+														<td>
+														<![endif]--> 
+															<table align="left" style="width: 100%; max-width: 252px;" class="col252" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF">
+																<tr>
+																	<td style="padding-bottom:15px;"><img src="images/img4.jpg" width="100%" class="fix" /></td>
+																</tr>
+															</table>
+														<!--[if (gte mso 9)|(IE)]>
+														</td>
+													</tr>
+												</table>
+												<![endif]-->
+												<!--[if (gte mso 9)|(IE)]>
+													<table width="272" cellpadding="0" cellspacing="0" border="0" align="right">
+														<tr>
+															<td>
+															<![endif]--> 
+																<table class="col272" cellpadding="0" align="right" cellspacing="0" border="0" bgcolor="#FFFFFF" style=" width: 100%; max-width: 272px;">
+																	<tr>
+																		<td class="fontshrink" valign="top" align="left" style="font-family:Arial, Helvetica, sans-serif; color:#009c9c; font-size:15px; line-height:16px; font-weight:bold; padding-bottom:15px;">Duis mollis commodo eleifend.</td>
+																	</tr>
+																	<tr>
+																		<td class="fontshrink2" align="left" style="font-family:Arial, Helvetica, sans-serif; color:#6d6e71; font-size:15px; line-height:16px; padding-bottom:15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac urna justo...</td>
+																	</tr>
+																</table>
+															<!--[if (gte mso 9)|(IE)]>
+															</td>
+														</tr>
+													</table>
+													<![endif]-->
+											</td>
+										</tr>
+										<!-- END BOX FOUR -->
+										<!--START BOX FIVE -->
+										<tr>
+											<td class="headline">
+												<!--[if (gte mso 9)|(IE)]>
+												<table width="252" cellpadding="0" cellspacing="0" border="0" align="left">
+													<tr>
+														<td>
+														<![endif]--> 
+															<table align="left" style="width: 100%; max-width: 252px;" class="col252" cellpadding="0" cellspacing="0" border="0" bgcolor="#FFFFFF">
+																<tr>
+																	<td style="padding-bottom:15px;"><img src="images/img5.jpg" width="100%" class="fix" /></td>
+																</tr>
+															</table>
+														<!--[if (gte mso 9)|(IE)]>
+														</td>
+													</tr>
+												</table>
+												<![endif]-->
+												<!--[if (gte mso 9)|(IE)]>
+													<table width="272" cellpadding="0" cellspacing="0" border="0" align="right">
+														<tr>
+															<td>
+															<![endif]--> 
+																<table class="col272" cellpadding="0" align="right" cellspacing="0" border="0" bgcolor="#FFFFFF" style=" width: 100%; max-width: 272px;">
+																	<tr>
+																		<td class="fontshrink" valign="top" align="left" style="font-family:Arial, Helvetica, sans-serif; color:#009c9c; font-size:15px; line-height:16px; font-weight:bold; padding-bottom:15px;">Duis mollis commodo eleifend.</td>
+																	</tr>
+																	<tr>
+																		<td class="fontshrink2" align="left" style="font-family:Arial, Helvetica, sans-serif; color:#6d6e71; font-size:15px; line-height:16px; padding-bottom:15px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ac urna justo...</td>
+																	</tr>
+																</table>
+															<!--[if (gte mso 9)|(IE)]>
+															</td>
+														</tr>
+													</table>
+													<![endif]-->
+											</td>
+										</tr>
+										<!-- END BOX FIVE -->
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td>
+									<table cellpadding="0" cellspacing="0" border="0" class="content" align="center" width="100%">
+										<tr>
+											<td class="headline2" align="center"><img src="images/heretohelp.png" width="100%" class="fix" /></td>
+										</tr>
+										<tr>
+											<td class="list">
+												
+															<table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%; max-width:520px;">
+																<tr>
+																	<td style="border-top:dotted #7b7a78 1px;"></td>
+																</tr>
+																<tr>
+																	<td>
+																		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%; max-width:520px;">
+																			<tr>
+																				<td width="8%"><img src="images/list1.png" width="100%" class="fix" /></td>
+																				<td width="90%" height="40" align="left" style="font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:16px; color:#009c9c"><a href="https://my.ee.co.uk/your-account/login/" title="YOUR ACCOUNT" target="_blank" style="color:#009c9c; text-decoration:none;">Your Bill</a></td>	
+																				<td width="2%" valign="middle"><a href="https://my.ee.co.uk/your-account/login/" title="YOUR ACCOUNT" target="_blank" style="color:#009c9c; text-decoration:none;"><img src="images/arrow.jpg" width="8" height="11" style="display:block" border="0"></a></td>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+															</table>
+											</td>
+										</tr>
+										<tr>
+											<td class="list">
+												
+															<table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%; max-width:520px;">
+																<tr>
+																	<td style="border-top:dotted #7b7a78 1px;"></td>
+																</tr>
+																<tr>
+																	<td>
+																		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%; max-width:520px;">
+																			<tr>
+																				<td width="8%"><img src="images/list2.png" width="100%" class="fix" /></td>
+																				<td width="90%" height="40" align="left" style="font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:16px; color:#009c9c"><a href="https://my.ee.co.uk/your-account/login/" title="YOUR ACCOUNT" target="_blank" style="color:#009c9c; text-decoration:none;">Upgrade your plan</a></td>	
+																				<td width="2%" valign="middle"><a href="https://my.ee.co.uk/your-account/login/" title="YOUR ACCOUNT" target="_blank" style="color:#009c9c; text-decoration:none;"><img src="images/arrow.jpg" width="8" height="11" style="display:block" border="0"></a></td>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+															</table>
+														
+											
+											</td>
+										</tr>
+										<tr>
+											<td class="list">
+												
+															<table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%; max-width:520px;">
+																<tr>
+																	<td style="border-top:dotted #7b7a78 1px;"></td>
+																</tr>
+																<tr>
+																	<td>
+																		<table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%; max-width:520px;">
+																			<tr>
+																				<td width="8%"><img src="images/list3.png" width="100%" class="fix" /></td>
+																				<td width="90%" height="40" align="left" style="font-family:Arial, Helvetica, sans-serif; font-size:16px; line-height:16px; color:#009c9c"><a href="https://my.ee.co.uk/your-account/login/" title="YOUR ACCOUNT" target="_blank" style="color:#009c9c; text-decoration:none;">Top tips for you</a></td>	
+																				<td width="2%" valign="middle"><a href="https://my.ee.co.uk/your-account/login/" title="YOUR ACCOUNT" target="_blank" style="color:#009c9c; text-decoration:none;"><img src="images/arrow.jpg" width="8" height="11" style="display:block" border="0"></a></td>
+																			</tr>
+																		</table>
+																	</td>
+																</tr>
+																<tr>
+																	<td style="border-top:dotted #7b7a78 1px;"></td>
+																</tr>
+															</table>
+														
+											
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td height="25" valign="top" style="font-size:25px; line-height:25px;"></td>
+							</tr>
+							<tr>
+								<td bgcolor="#FFFFFF" style="border-top:dotted #7b7a78 1px;" class="headline">
+									<table width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%; max-width:520px;">
+										<tr>
+											<td height="15" valign="top" style="font-size:15px; line-height:15px;"></td>
+										</tr>
+										<tr>
+											<td valign="top">
+											<!--[if (gte mso 9)|(IE)]>
+												<table width="265" cellpadding="0" cellspacing="0" border="0" align="left">
+													<tr>
+														<td>
+														<![endif]--> 
+															<table align="left" style="width:45%; max-width:265px;" class="footerleft" cellpadding="0" cellspacing="0" border="0">
+																<tr>
+																	<td class="footershrink2" align="left" style="font-family:Arial, Helvetica, sans-serif; color:#009c9c; font-size:12px; line-height:22px; border-right:dotted #7b7a78 1px;"><span style="color:#6d6e71;">EE ESSENTIALS</span><br /><strong>EE &amp; ME</strong><br /><strong>Shop</strong><br /><strong>Help</strong></td>
+																</tr>
+															</table>
+														<!--[if (gte mso 9)|(IE)]>
+														</td>
+													</tr>
+												</table>
+												<![endif]-->
+												<!--[if (gte mso 9)|(IE)]>
+													<table width="249" cellpadding="0" cellspacing="0" border="0" align="left">
+														<tr>
+															<td>
+															<![endif]--> 
+																<table class="footerright" cellpadding="0" align="left" cellspacing="0" border="0" style=" width: 45%; max-width:249px;">
+																	<tr>
+																		<td class="footershrink2" align="left" style="font-family:Arial, Helvetica, sans-serif; color:#009c9c; font-size:12px; line-height:22px; padding-left:20px;"><span style="color:#6d6e71;">HOW TO FIND EE</span><br /><strong>Coverage checker</strong><br /><strong>Find a store</strong><br />&nbsp;</td>
+																</tr>
+																</table>
+															<!--[if (gte mso 9)|(IE)]>
+															</td>
+														</tr>
+													</table>
+												<![endif]-->
+											</td>
+										</tr>
+										<tr>
+											<td height="15" valign="top" style="font-size:15px; line-height:15px;"></td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+						</table>
+					<!--[if (gte mso 9)|(IE)]>
+					</td>
+				</tr>
+			</table>
+			<![endif]-->
+		</td>
+	</tr>
+</table>
+</body>
+</html>

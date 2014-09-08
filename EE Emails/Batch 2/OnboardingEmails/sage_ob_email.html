@@ -1,0 +1,331 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fluid Email test</title>
+
+<style type="text/css">
+        body {-webkit-text-size-adjust:none; -ms-text-size-adjust:100%;-webkit-font-smoothing:antialiased; margin:0; padding:0; font-family:Arial, Helvetica, sans-serif;} 
+        table {border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;margin:0; padding:0;} 
+        td {border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt;margin:0; padding:0;}
+        img {height: auto;}
+        .content {width: 100%; max-width: 600px;}
+        .readonline {padding: 0px 14px 10px 14px; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:13px; color:#FFFFFF;}
+        .header {padding: 40px 30px 20px 30px;}
+        .headline{padding:0px 24px 0px 24px;}
+        .headline1{padding:0px 22px 0px 23px;}
+        .headline2{padding:20px 30px 20px 30px;}
+        .list{padding:0px 40px 0px 40px;}
+        .innerpadding {padding: 30px 30px 30px 30px;}
+        .borderbottom {border-bottom: 1px solid #f2eeed;}
+        .subhead {font-size: 15px; color: #ffffff; font-family: sans-serif; letter-spacing: 10px;}
+        .bodycopy {color: #6d6e71; font-family: Arial, Helvetica, sans-serif;}
+        .h1 {}
+        .h2 {padding: 0 0 15px 0; font-size: 24px; line-height: 28px; font-weight: bold;}
+        .bodycopy {font-size: 15px; line-height: 16px; padding:20px 24px 20px 24px; }
+        .boxcopy {font-size: 12px; line-height: 14px; color: #6d6e71; font-family: Arial, Helvetica, sans-serif;}
+        .button {text-align: center; font-size: 18px; font-family: sans-serif; font-weight: bold; padding: 0 30px 0 30px;}
+        .button a {color: #ffffff; text-decoration: none;}
+        .footer {padding: 20px 30px 15px 30px;}
+        .footercopy {font-family: sans-serif; font-size: 14px; color: #ffffff;}
+        .footercopy a {color: #ffffff; text-decoration: underline;}
+        .fix {display: block;}
+
+          @media only screen and (max-width: 550px), screen and (max-width: 550px) {
+          body[yahoo] .hide {display: none!important;}
+          body[yahoo] .buttonwrapper {background-color: transparent!important;}
+          body[yahoo] .button {padding: 0px!important;}
+          body[yahoo] .button a {background-color: #e05443; padding: 15px 15px 13px!important;}
+          body[yahoo] .unsubscribe {display: block; margin-top: 20px; padding: 10px 50px; background: #2f3942; border-radius: 5px; text-decoration: none!important; font-weight: bold;}
+          table[class=emailwrapto100pc], img[class=fix], table[class=emailfootercol]{width:100% !important; height:auto !important;}
+          table[class=col252]{font-size:12px !important; line-height:13px !important; width:100% !important; height:auto !important; float:left !important;}
+          table[class=col272]{font-size:12px !important; line-height:13px !important; width:100% !important; height:auto !important; float:left !important;}
+          table[class=footerleft]{font-size:12px !important; line-height:13px !important; width:50% !important; height:auto !important; float:left !important;}
+          table[class=footerright]{font-size:12px !important; line-height:13px !important; width:50% !important; height:auto !important; float:right !important;}
+          td[class=fontshrink]{font-size:16px !important; line-height:20px !important; padding-left:10px !important; padding-bottom:5px !important;}
+          td[class=fontshrink2]{font-size:16px !important; line-height:20px !important; padding-left:10px !important;}
+          td[class=footershrink2]{font-size:12px !important; line-height:18px !important;}
+          td[class=headline2]{padding:20px 0px 20px 0px;}
+          td[class=headline1]{padding:0px 0px 0px 0px !important;}
+          td[class=bodycopy]{padding:20px 24px 20px 24px;}
+          img[class=emailnomob]{display:none !important;}
+          
+          div[class=phoneonly-img1]{
+                display:block !important;
+                overflow:visible !important;
+                visibility:visible !important;
+                max-height: 100% !important;
+                min-height: 156px !important;
+                mso-hide: all;
+                width:100% !important;
+                height:auto !important;
+                }
+                
+                img[class=phoneonly-img1]{
+                display:block !important;
+                overflow:visible !important;
+                visibility:visible !important;
+                width:100% !important;
+                height:auto !important;
+                text-align:center !important;
+                }
+          }
+
+          @media only screen and (min-width: 600px) {
+                .content {width: 600px !important;}
+                .col425 {width: 425px!important;}
+                .col380 {width: 380px!important;}
+                .col272 {width: 272px!important;}
+                .col252 {width: 252px!important;}
+                .footerleft {width: 265px!important;}
+                .footerright {width: 249px!important;}
+                .desktop{font-size: 16px; line-height: 18px; color: #6d6e71; font-family: Arial, Helvetica, sans-serif;}
+                }
+
+</style>
+</head>
+<body bgcolor="#FFFFFF" style="-webkit-text-size-adjust:none; -ms-text-size-adjust:100%; border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; margin:0; padding:0; " ><div ><div class="mktEditable" ><table border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#F6F4F0">
+<tbody>
+<tr>
+<td align="center" valign="top"><!--[if (gte mso 9)|(IE)]> 
+<table width="600" align="center" cellpadding="0" cellspacing="0" border="0">
+<tr>
+<td><![endif]--> 
+<table class="content" border="0" cellspacing="0" cellpadding="0" width="100%" align="center">
+<tbody>
+<tr>
+<td style="font-size: 9px; line-height: 9px; color: #000000; font-family: Arial, Helvetica, sans-serif;" bgcolor="#000000">This Text can be used to expand on the subject line but is hidden in the email...</td>
+</tr>
+<tr>
+<td class="readonline" align="right" valign="top" bgcolor="#000000">Can't see images?<br /> Click here to load them superfast</td>
+</tr>
+<tr>
+<td bgcolor="#F6F4F0">
+<table class="content" border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#F6F4F0">
+<tbody>
+<tr>
+<td class="headline1"><img class="emailnomob" style="display: block;" src="http://infostage.mybusinessworks.co.uk/rs/businesscentricsandbox/images/get-started-with-sage-one-accounts-and-payroll-header.png" alt="" width="100%" /> <!--[if !mso]><!-->
+<div class="phoneonly-img1" style="font-size: 0; max-height: 0; overflow: hidden; display: none;"><img class="phoneonly-img1" style="display: block;" src="http://infostage.mybusinessworks.co.uk/rs/businesscentricsandbox/images/get-started-with-sage-one-accounts-and-payroll-header.png" border="0" alt="" width="320" height="156" /></div>
+<!--<![endif]--></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td bgcolor="#F6F4F0">
+<table class="content" border="0" cellspacing="0" cellpadding="0" width="100%" bgcolor="#F6F4F0">
+<tbody>
+<tr>
+<td><img class="fix" src="http://infostage.mybusinessworks.co.uk/rs/businesscentricsandbox/images/Generic_SageImage.jpg" alt="Generic_SageImage.jpg" width="100%" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td bgcolor="#F6F4F0">
+<table class="content" border="0" cellspacing="0" cellpadding="0" width="100%" align="center" bgcolor="#F6F4F0">
+<tbody>
+<tr>
+<td class="bodycopy" align="left">
+<p><strong>Hello {{lead.First Name:default=there}}</strong>,<br /> <br /> Thanks for subscribing to Sage One Bundle.</p>
+<p>You now have access to the winning combination of Sage One Accounts and Sage One Payroll.</p>
+<p>Managing your accounts will be simple and straightforward, with easy processes for controlling you cash flow, sorting out VAT returning, and bank reconciliation.</p>
+<p>And the added bonus of online payroll for free means you'll have your pay run sorted in four quick steps. You can pay up to 5 staff members per month.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class="headline" align="left" valign="top">
+<table class="emailwrapto100pc" style="height: 44px; margin-bottom: 30px;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td rowspan="2" width="17"><a title="FIND OUT MORE" href="http://explore.ee.co.uk/ee-network/why-choose-EE/more-great-reasons" target="_blank"><img style="display: block;" src="http://infostage.mybusinessworks.co.uk/rs/businesscentricsandbox/images/buttonl.png" border="0" alt="" width="17" height="44" /></a></td>
+<td style="font-size: 1px; line-height: 1px; width: auto !important;" height="3" valign="middle" bgcolor="#009C9C">&nbsp;</td>
+<td rowspan="2" width="16"><a title="FIND OUT MORE" href="http://explore.ee.co.uk/ee-network/why-choose-EE/more-great-reasons" target="_blank"><img style="display: block;" src="http://infostage.mybusinessworks.co.uk/rs/businesscentricsandbox/images/buttonr.png" border="0" alt="" width="16" height="44" /></a></td>
+</tr>
+<tr>
+<td style="font-family: Arial, Helvetica, sans-serif; font-size: 12px;" height="37" align="center" valign="middle" bgcolor="#009C9C"><a style="text-decoration: none; color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 12px;" title="FIND OUT MORE" href="http://explore.ee.co.uk/ee-network/why-choose-EE/more-great-reasons" target="_blank">START USING SAGE</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td>
+<table class="content" border="0" cellspacing="0" cellpadding="0" width="100%" align="center" bgcolor="#F6F4F0">
+<tbody>
+<tr>
+<td class="bodycopy" align="left" style="padding-top: 0;">
+<p>We'll give you full support whenever you need it - whether that's help setting up the apps or any questions you might have about using them. Just give us a call and we'll be happy to help.</p>
+<p>Best wishes,
+<br>
+<br>The Business Apps Team
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td bgcolor="#FFFFFF">
+<table class="content" border="0" cellspacing="0" cellpadding="0" width="100%" align="center" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td class="headline2" align="center"><img class="fix" src="http://infostage.mybusinessworks.co.uk/rs/businesscentricsandbox/images/moretoexplore.png" alt="" width="100%" /></td>
+</tr>
+<!-- START BOX ONE --> 
+<tr>
+<td class="headline"><!--[if (gte mso 9)|(IE)]> 
+<table width="252" cellpadding="0" cellspacing="0" border="0" align="left">
+<tr>
+<td><![endif]--> 
+<table class="col252" style="width: 100%; max-width: 252px;" border="0" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td style="padding-top: 65px; padding-bottom: 25px;"><img class="fix" src="http://infostage.mybusinessworks.co.uk/rs/businesscentricsandbox/images/mozypro.png" alt="" width="100%" /></td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td>
+</tr>
+</table>
+<![endif]--><!--[if (gte mso 9)|(IE)]> 
+<table width="272" cellpadding="0" cellspacing="0" border="0" align="right">
+<tr>
+<td><![endif]--> 
+<table class="col272" style="width: 100%; max-width: 272px;" border="0" cellspacing="0" cellpadding="0" align="right" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td class="fontshrink" style="font-family: Arial, Helvetica, sans-serif; color: #009c9c; font-size: 15px; line-height: 16px; font-weight: bold; padding-bottom: 15px;" align="left" valign="top">Keeping your business files protected</td>
+</tr>
+<tr>
+<td class="fontshrink2" style="font-family: Arial, Helvetica, sans-serif; color: #6d6e71; font-size: 15px; line-height: 16px; padding-bottom: 15px;" align="left">
+<ul>
+<li><span style="color: #6d6e71; font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15.555556297302246px; line-height: 16px;"><span>Create copies of all your files and protect against system crashes</span><br /></span></span></li>
+<li><span style="color: #6d6e71; font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15.555556297302246px; line-height: 16px;"><span>Access them anytime, anywhere</span></span></span></li>
+<li><span style="color: #6d6e71; font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15.555556297302246px; line-height: 16px;"><span>Get on with other things as it backs up automatically</span></span></span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td>
+</tr>
+</table>
+<![endif]--></td>
+</tr>
+<!-- END BOX ONE --><!-- START BOX TWO --> 
+<tr>
+<td class="headline"><!--[if (gte mso 9)|(IE)]> 
+<table width="252" cellpadding="0" cellspacing="0" border="0" align="left">
+<tr>
+<td><![endif]--> 
+<table class="col252" style="width: 100%; max-width: 252px;" border="0" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td style="padding-top: 65px; padding-bottom: 15px;"><img class="fix" style="height: 100px;" src="http://infostage.mybusinessworks.co.uk/rs/businesscentricsandbox/images/office-365.png" alt="" width="100%" /></td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td>
+</tr>
+</table>
+<![endif]--><!--[if (gte mso 9)|(IE)]> 
+<table width="272" cellpadding="0" cellspacing="0" border="0" align="right">
+<tr>
+<td><![endif]--> 
+<table class="col272" style="width: 100%; max-width: 272px;" border="0" cellspacing="0" cellpadding="0" align="right" bgcolor="#FFFFFF">
+<tbody>
+<tr>
+<td class="fontshrink" style="font-family: Arial, Helvetica, sans-serif; color: #009c9c; font-size: 15px; line-height: 16px; font-weight: bold; padding-bottom: 15px;" align="left" valign="top">Keeping your business files protected</td>
+</tr>
+<tr>
+<td class="fontshrink2" style="font-family: Arial, Helvetica, sans-serif; color: #6d6e71; font-size: 15px; line-height: 16px; padding-bottom: 15px;" align="left">
+<ul>
+<li><span style="color: #6d6e71; font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15.555556297302246px; line-height: 16px;">All the Office tools you use day-to-day, but in the cloud for access anywhere</span></span></li>
+<li><span style="color: #6d6e71; font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15.555556297302246px; line-height: 16px;">Now you and your team can login to work on any device – superfast if you have 4GEE</span></span></li>
+<li><span style="color: #6d6e71; font-family: Arial, Helvetica, sans-serif;"><span style="font-size: 15.555556297302246px; line-height: 16px;">Keep everyone in sync and on schedule with shared calendars and contacts</span></span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class="headline">
+<table class="col252" style="width: 100%; max-width: 252px;" border="0" cellspacing="0" cellpadding="0" align="left" bgcolor="#FFFFFF">
+<tbody>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+
+<tr>
+<td style="font-size: 25px; line-height: 25px;" height="25" valign="top"></td>
+</tr>
+<tr>
+<td class="headline" style="border-top: dotted #7b7a78 1px;" bgcolor="#FFFFFF">
+<table style="width: 100%; max-width: 520px;" border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td style="font-size: 15px; line-height: 15px;" height="15" valign="top"></td>
+</tr>
+<tr>
+<td valign="top"><!--[if (gte mso 9)|(IE)]> 
+<table width="265" cellpadding="0" cellspacing="0" border="0" align="left">
+<tr>
+<td><![endif]--> 
+<table class="footerleft" style="width: 45%; max-width: 265px;" border="0" cellspacing="0" cellpadding="0" align="left">
+<tbody>
+<tr>
+<td class="footershrink2" style="font-family: Arial, Helvetica, sans-serif; color: #009c9c; font-size: 12px; line-height: 22px; border-right: dotted #7b7a78 1px;" align="left"><span style="color: #6d6e71;">BUSINESS APPS ESSENTIALS</span><br /> <strong>EE &amp; ME</strong><br /> <strong>Shop</strong><br /> <strong>Help</strong></td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td>
+</tr>
+</table>
+<![endif]--><!--[if (gte mso 9)|(IE)]> 
+<table width="249" cellpadding="0" cellspacing="0" border="0" align="left">
+<tr>
+<td><![endif]--> 
+<table class="footerright" style="width: 45%; max-width: 249px;" border="0" cellspacing="0" cellpadding="0" align="left">
+<tbody>
+<tr>
+<td class="footershrink2" style="font-family: Arial, Helvetica, sans-serif; color: #009c9c; font-size: 12px; line-height: 22px; padding-left: 20px;" align="left"><span style="color: #6d6e71;">HOW TO FIND EE</span><br /> <strong>Small business home</strong><br /> <strong>Find a store</strong><br /> &nbsp;</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td>
+</tr>
+</table>
+<![endif]--></td>
+</tr>
+<tr>
+<td style="font-size: 15px; line-height: 15px;" height="15" valign="top"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td>
+</tr>
+</table>
+<![endif]--></td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</body>
+</html>
