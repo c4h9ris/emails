@@ -1,0 +1,936 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width">
+<style type="text/css">
+a:hover {
+color: #0098AD !important;
+}
+a:active {
+color: #0098AD !important;
+}
+a:visited {
+color: #0098AD !important;
+}
+h1 a:active {
+color: #2ba6cb !important;
+}
+h2 a:active {
+color: #2ba6cb !important;
+}
+h3 a:active {
+color: #2ba6cb !important;
+}
+h4 a:active {
+color: #2ba6cb !important;
+}
+h5 a:active {
+color: #2ba6cb !important;
+}
+h6 a:active {
+color: #2ba6cb !important;
+}
+h1 a:visited {
+color: #2ba6cb !important;
+}
+h2 a:visited {
+color: #2ba6cb !important;
+}
+h3 a:visited {
+color: #2ba6cb !important;
+}
+h4 a:visited {
+color: #2ba6cb !important;
+}
+h5 a:visited {
+color: #2ba6cb !important;
+}
+h6 a:visited {
+color: #2ba6cb !important;
+}
+table.button:hover td {
+background: #333333 !important;
+}
+table.button:visited td {
+background: #333333 !important;
+}
+table.button:active td {
+background: #333333 !important;
+}
+table.button:hover td a {
+color: #fff !important;
+}
+table.button:visited td a {
+color: #fff !important;
+}
+table.button:active td a {
+color: #fff !important;
+}
+table.button:hover td {
+background: #333333 !important;
+}
+table.tiny-button:hover td {
+background: #333333 !important;
+}
+table.small-button:hover td {
+background: #333333 !important;
+}
+table.medium-button:hover td {
+background: #333333 !important;
+}
+table.large-button:hover td {
+background: #333333 !important;
+}
+table.button:hover td a {
+color: #0098ad !important;
+}
+table.button:active td a {
+color: #0098ad !important;
+}
+table.button td a:visited {
+color: #0098ad !important;
+}
+table.tiny-button:hover td a {
+color: #0098ad !important;
+}
+table.tiny-button:active td a {
+color: #0098ad !important;
+}
+table.tiny-button td a:visited {
+color: #0098ad !important;
+}
+table.small-button:hover td a {
+color: #0098ad !important;
+}
+table.small-button:active td a {
+color: #0098ad !important;
+}
+table.small-button td a:visited {
+color: #0098ad !important;
+}
+table.medium-button:hover td a {
+color: #0098ad !important;
+}
+table.medium-button:active td a {
+color: #0098ad !important;
+}
+table.medium-button td a:visited {
+color: #0098ad !important;
+}
+table.large-button:hover td a {
+color: #0098ad !important;
+}
+table.large-button:active td a {
+color: #0098ad !important;
+}
+table.large-button td a:visited {
+color: #0098ad !important;
+}
+table.secondary:hover td {
+background: #d0d0d0 !important; color: #555;
+}
+table.secondary:hover td a {
+color: #555 !important;
+}
+table.secondary td a:visited {
+color: #555 !important;
+}
+table.secondary:active td a {
+color: #555 !important;
+}
+table.success:hover td {
+background: #457a1a !important;
+}
+table.alert:hover td {
+background: #970b0e !important;
+}
+table.facebook:hover td {
+background: #2d4473 !important;
+}
+table.twitter:hover td {
+background: #0087bb !important;
+}
+table.google-plus:hover td {
+background: #CC0000 !important;
+}
+@media only screen and (max-width: 600px) {
+  table[class="body"] img {
+    width: auto !important; height: auto !important;
+  }
+  table[class="body"] center {
+    min-width: 0 !important;
+  }
+  table[class="body"] .container {
+    width: 95% !important;
+  }
+  table[class="body"] .row {
+    width: 100% !important; display: block !important;
+  }
+  table[class="body"] .wrapper {
+    display: block !important; padding-right: 0 !important;
+  }
+  table[class="body"] .columns {
+    table-layout: fixed !important; float: none !important; width: 100% !important; padding-right: 0px !important; padding-left: 0px !important; display: block !important;
+  }
+  table[class="body"] .column {
+    table-layout: fixed !important; float: none !important; width: 100% !important; padding-right: 0px !important; padding-left: 0px !important; display: block !important;
+  }
+  table[class="body"] .wrapper.first .columns {
+    display: table !important;
+  }
+  table[class="body"] .wrapper.first .column {
+    display: table !important;
+  }
+  table[class="body"] table.columns td {
+    width: 100%;
+  }
+  table[class="body"] table.column td {
+    width: 100%;
+  }
+  table[class="body"] .columns td.one {
+    width: 8.333333% !important;
+  }
+  table[class="body"] .column td.one {
+    width: 8.333333% !important;
+  }
+  table[class="body"] .columns td.two {
+    width: 16.666666% !important;
+  }
+  table[class="body"] .column td.two {
+    width: 16.666666% !important;
+  }
+  table[class="body"] .columns td.three {
+    width: 25% !important;
+  }
+  table[class="body"] .column td.three {
+    width: 25% !important;
+  }
+  table[class="body"] .columns td.four {
+    width: 33.333333% !important;
+  }
+  table[class="body"] .column td.four {
+    width: 33.333333% !important;
+  }
+  table[class="body"] .columns td.five {
+    width: 41.666666% !important;
+  }
+  table[class="body"] .column td.five {
+    width: 41.666666% !important;
+  }
+  table[class="body"] .columns td.six {
+    width: 50% !important;
+  }
+  table[class="body"] .column td.six {
+    width: 50% !important;
+  }
+  table[class="body"] .columns td.seven {
+    width: 58.333333% !important;
+  }
+  table[class="body"] .column td.seven {
+    width: 58.333333% !important;
+  }
+  table[class="body"] .columns td.eight {
+    width: 66.666666% !important;
+  }
+  table[class="body"] .column td.eight {
+    width: 66.666666% !important;
+  }
+  table[class="body"] .columns td.nine {
+    width: 75% !important;
+  }
+  table[class="body"] .column td.nine {
+    width: 75% !important;
+  }
+  table[class="body"] .columns td.ten {
+    width: 83.333333% !important;
+  }
+  table[class="body"] .column td.ten {
+    width: 83.333333% !important;
+  }
+  table[class="body"] .columns td.eleven {
+    width: 91.666666% !important;
+  }
+  table[class="body"] .column td.eleven {
+    width: 91.666666% !important;
+  }
+  table[class="body"] .columns td.twelve {
+    width: 100% !important;
+  }
+  table[class="body"] .column td.twelve {
+    width: 100% !important;
+  }
+  table[class="body"] td.offset-by-one {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-two {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-three {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-four {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-five {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-six {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-seven {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-eight {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-nine {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-ten {
+    padding-left: 0 !important;
+  }
+  table[class="body"] td.offset-by-eleven {
+    padding-left: 0 !important;
+  }
+  table[class="body"] table.columns td.expander {
+    width: 1px !important;
+  }
+  table[class="body"] .right-text-pad {
+    padding-left: 10px !important;
+  }
+  table[class="body"] .text-pad-right {
+    padding-left: 10px !important;
+  }
+  table[class="body"] .left-text-pad {
+    padding-right: 10px !important;
+  }
+  table[class="body"] .text-pad-left {
+    padding-right: 10px !important;
+  }
+  table[class="body"] .hide-for-small {
+    display: none !important;
+  }
+  table[class="body"] .show-for-desktop {
+    display: none !important;
+  }
+  table[class="body"] .show-for-small {
+    display: inherit !important;
+  }
+  table[class="body"] .hide-for-desktop {
+    display: inherit !important;
+  }
+  table[class="body"] .right-text-pad {
+    padding-left: 10px !important;
+  }
+  table[class="body"] .left-text-pad {
+    padding-right: 10px !important;
+  }
+  .box-circle {
+    margin-left: 0 !important;
+  }
+  .mastercard-circle {
+    margin-top: 5px;
+  }
+  .full-width-responsive {
+    width: 290px !important;
+  }
+  .temp-margin-top-28 {
+    margin-top: 0;
+  }
+  .padding-top-34 {
+    padding-top: 0 !important;
+  }
+}
+</style>
+<title></title>
+</head>
+<body style="width:100% !important; min-width:100%; -webkit-text-size-adjust:100%; -ms-text-size-adjust:100%; color:#222222; font-family:'Helvetica', 'Arial', sans-serif; font-weight:normal; text-align:left; line-height:19px; font-size:14px; margin:0; padding:0; " ><div ><div class="mktEditable" >
+<table class="body" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; height: 100%; width: 100%; color: #222222; font-family: Helvetica, Arial, sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0px;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td class="center" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" 
+align="center" valign="top">
+<table class="container" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: inherit; width: 580px; margin: 0px auto;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top">
+<table class="row" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; position: relative; display: block;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td class="wrapper" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; 
+padding: 0 20px 0px 0px;" align="left" valign="top">
+<table class="six columns" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 280px; margin: 0px auto;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" 
+valign="top"><img style="outline: none; text-decoration: none; width: auto; max-width: 100%; clear: both; display: block;" src="http://infostage.cloudsaasportal.com/rs/businesscentricsandbox/images/mbot-logo-email-eng-290.png" alt="" align="left" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="wrapper last" style="vertical-align: middle; word-break: break-word; hyphens: auto; border-collapse: collapse !important; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 
+0; padding: 10px 0px 0px 12px;" align="left" valign="middle">
+<table class="six columns" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 280px; margin: 0px auto;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td class="padding-top-34" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 34px 0px 
+ 10px;" align="left" valign="top"><img style="outline: none; text-decoration: none; width: auto; max-width: 100%; clear: both; display: block;" src="http://infostage.cloudsaasportal.com/rs/businesscentricsandbox/images/mbot-tools2-logo-email-eng-290.png" alt="" align="left" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="row" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; position: relative; display: block;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td class="wrapper last" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; 
+padding: 0 0px 0px;" align="left" valign="top">
+<table class="twelve columns" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; margin: 0px auto;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" 
+valign="top"><img style="outline: none; text-decoration: none; width: auto; max-width: 100%; clear: both; display: block;" src="http://infostage.mybusinessworks.co.uk/rs/businesscentricsandbox/images/mozypro-banner.jpg" alt="" align="left" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="row" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; position: relative; display: block;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td class="wrapper" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; 
+padding: 0 20px 0px 0px;" align="left" valign="top">
+<table class="six columns" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 280px; margin: 0px auto;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 40px 15px 0; word-wrap:break-word;" align="left" 
+valign="top">
+<p style="line-height: 24px; color: #222222; font-family: Helvetica, Arial, sans-serif; font-weight: normal; text-align: left; font-size: 14px; margin: 0px 0px 30px;" align="left">Hello {{lead.First Name}},</p>
+<p>Thank you for signing up to Tools.
+  You can now access to a range of trusted applications, handpicked specifically for businesses.</p>
+<p>Use everything in one place, with just one set of login details, and get a single, easy-to-manage monthly bill.</p>
+<p>You&rsquo;ll get great value compared to the market price, as well as a dedicated customer support team to walk you through anything you need help with.
+  Just call us at 1-800-579-8547.</p>
+<p>You can login to your account anytime by visiting mastercardbusinessownerto</br>olbox.ca/tools/login</p>
+<p>&nbsp;</p>
+</td>
+<td class="expander" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; 
+margin: 0; padding: 0;" align="left" valign="top"></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="wrapper last" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; 
+padding: 0 0px 0px;" align="left" valign="top">
+<table class="six columns" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 280px; margin: 0px auto;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; background: #676767; margin: 0; padding: 10px 15px  
+20px;" align="left" valign="top" bgcolor="#676767">
+<p style="line-height: 24px; text-align: left; color: #ffffff; font-weight: bold; font-size: 16px; font-family: Helvetica, Arial, sans-serif; margin: 0px 0px 2px;" align="center">Congratulations!</p>
+<p style="color: #ffffff; text-align: center; font-size: 16px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; line-height: 19px; margin: 0px 0px 0px;" align="center">&nbsp;</p>
+<p style="color: #ffffff; text-align: left; font-size: 18px; font-family: Helvetica, Arial, sans-serif; font-weight: normal; line-height: 22px; margin: 0px 0px 10px;" align="center">You’ve subscribed to the bookkeeping tool.</p>
+<hr style="color: #d9d9d9; height: 1px; background: #d9d9d9; border: none;" />
+<p style="color: #ffffff; font-family: Helvetica, Arial, sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; margin: 0px 0px 12px;" align="left">SAGE ONE LETS YOU:</p>
+<p style="color: #ffffff; font-family: Helvetica, Arial, sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; margin: 0px 0px 15px;" align="left"><img style="outline: none; text-decoration: none; width: auto; max-width: 100%; clear: both; display: block;" 
+src="http://infostage.mybusinessworks.co.uk/rs/businesscentricsandbox/images/tick-image-small.png" alt="" align="left" />View a quick snapshot of your finances from the dashboard.</p>
+<p style="color: #ffffff; font-family: Helvetica, Arial, sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; margin: 0px 0px 15px;" align="left"><img style="outline: none; text-decoration: none; width: auto; max-width: 100%; clear: both; display: block;" 
+src="http://infostage.mybusinessworks.co.uk/rs/businesscentricsandbox/images/tick-image-small.png" alt="" align="left" />Record cash sales and cash sale refunds.</p>
+<p style="color: #ffffff; font-family: Helvetica, Arial, sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; margin: 0px 0px 15px;" align="left"><img style="outline: none; text-decoration: none; width: auto; max-width: 100%; clear: both; display: block;" 
+src="http://infostage.mybusinessworks.co.uk/rs/businesscentricsandbox/images/tick-image-small.png" alt="" align="left" />Easily create and record sales invoices and credit notes.</p>
+<p style="color: #ffffff; font-family: Helvetica, Arial, sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; margin: 0px 0px 15px;" align="left"><img style="outline: none; text-decoration: none; width: auto; max-width: 100%; clear: both; display: block;" 
+src="http://infostage.mybusinessworks.co.uk/rs/businesscentricsandbox/images/tick-image-small.png" alt="" align="left" />Prepare and submit GST returns online.</p>
+<table class="button" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; overflow: hidden;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; display: block; width: auto !important; 
+background: #333333; margin: 0; padding: 8px 0; border: 1px solid #333333;" align="center" valign="top" bgcolor="#333333"><a style="color: #0098ad; text-decoration: none; font-weight: bold; font-family: Helvetica, Arial, sans-serif; font-size: 16px;" 
+href="http://dev.mc.cloudsaasportal.com:8080/testPublic/en/tools/login">LAUNCH NOW</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="expander" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; 
+margin: 0; padding: 0;" align="left" valign="top"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="row" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; position: relative; display: block;padding-top: 14px;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td class="wrapper last" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; 
+padding: 0 0px 0px;" align="left" valign="top">
+<table class="twelve columns" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; margin: 0px auto;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0 15px;" align="left" 
+valign="top">
+<p style="font-weight: bold; font-size: 21px; color: #222222; font-family: Helvetica, Arial, sans-serif; text-align: left; line-height: 19px; margin: 0px;" align="left">Get started using Sage One</p>
+<p style="font-weight: bold; font-size: 21px; color: #222222; font-family: Helvetica, Arial, sans-serif; text-align: left; line-height: 5px; margin: 0px;" align="left">&nbsp;</p>
+<hr style="color: #d9d9d9; height: 1px; background: #d9d9d9; border: none;" />
+</td>
+<td class="expander" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; 
+margin: 0; padding: 0;" align="left" valign="top"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="row" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; position: relative; display: block;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td class="wrapper" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; 
+padding: 0 20px 0px 0px;" align="left" valign="top">
+<table class="four columns" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 180px; margin: 0px auto;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0 15px;" align="left" 
+valign="top">
+<p style="font-size: 19px; color: #222222; font-family: Helvetica, Arial, sans-serif; font-weight: normal; text-align: left; line-height: 19px; margin: 0px 0px 30px;" align="left">Adjust your business settings</p>
+<p style="color: #222222; font-family: Helvetica, Arial, sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; margin: 0px 0px 30px;" align="left">Add key information, such as when your financial year starts and ends and when you want to begin using the  
+software.</p>
+</td>
+<td class="expander" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; 
+margin: 0; padding: 0;" align="left" valign="top"></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="wrapper" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; 
+padding: 0 20px 0px 0px;" align="left" valign="top">
+<table class="four columns" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 180px; margin: 0px auto;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0 15px;" align="left" 
+valign="top">
+<p style="font-size: 19px; color: #222222; font-family: Helvetica, Arial, sans-serif; font-weight: normal; text-align: left; line-height: 19px; margin: 0px 0px 30px;" align="left">Set up your company details</p>
+<p style="color: #222222; font-family: Helvetica, Arial, sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; margin: 0px 0px 30px;" align="left">Adding your company details into Sage One will allow you to get started creating invoices.</p>
+</td>
+<td class="expander" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; 
+margin: 0; padding: 0;" align="left" valign="top"></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="wrapper last" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; 
+padding: 0 0px 0px;" align="left" valign="top">
+<table class="four columns" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 180px; margin: 0px auto;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0 15px;" align="left" 
+valign="top">
+<p style="font-size: 19px; color: #222222; font-family: Helvetica, Arial, sans-serif; font-weight: normal; text-align: left; line-height: 19px; margin: 0px 0px 30px;" align="left">Choose an invoice template</p>
+<p style="color: #222222; font-family: Helvetica, Arial, sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; margin: 0px 0px 30px;" align="left">Enter the details of your first customer and create your first sales invoice, which can be emailed to them  
+directly.</p>
+</td>
+<td class="expander" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; 
+margin: 0; padding: 0;" align="left" valign="top"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="row" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; position: relative; display: block;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td class="wrapper" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; 
+padding: 0 20px 0px 0px;" align="left" valign="top">
+<table class="three columns" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 130px; margin: 0px auto;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0 15px;" align="left" 
+valign="top"></td>
+<td class="expander" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; 
+margin: 0; padding: 0;" align="left" valign="top"></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="wrapper" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; 
+padding: 0 20px 0px 0px;" align="left" valign="top">
+<table class="six columns" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 280px; margin: 0px auto;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0 15px;" align="left" 
+valign="top">
+<table class="button" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; overflow: hidden;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: center; color: #ffffff; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; display: block; width: auto !important; 
+background: #333333; margin: 0 0 20px; padding: 8px 0; border: 1px solid #333333;" align="center" valign="top" bgcolor="#333333"><a style="color: #ffffff; text-decoration: none; font-weight: bold; font-family: Helvetica, Arial, sans-serif; font-size: 16px;" 
+href="http://dev.mc.cloudsaasportal.com:8080/testPublic/en/tools/login">Launch Sage One now</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="expander" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; 
+margin: 0; padding: 0;" align="left" valign="top"></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="wrapper last" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; 
+padding: 0 0px 0px;" align="left" valign="top">
+<table class="three columns" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 130px; margin: 0px auto;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0 15px;" align="left" 
+valign="top"></td>
+<td class="expander" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; 
+margin: 0; padding: 0;" align="left" valign="top"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="row" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; position: relative; display: block;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td class="wrapper" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; 
+padding: 0 20px 0px 0px;" align="left" valign="top">
+<table class="three columns" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 130px; margin: 0px auto;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0 15px;" align="left" 
+valign="top"></td>
+<td class="expander" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; 
+margin: 0; padding: 0;" align="left" valign="top"></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="wrapper" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; 
+padding: 0 20px 0px 0px;" align="left" valign="top">
+<table class="six columns" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 280px; margin: 0px auto;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td class="four sub-columns" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; min-width: 0px; width: 33.333333%; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; 
+font-size: 14px; margin: 0; padding: 0px 10px 10px 0px;" align="left" valign="top"><br /></td>
+<td class="one sub-columns" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; min-width: 0px; width: 8.333333%; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 
+14px; margin: 0; padding: 0px 10px 10px 0px;" align="left" valign="top"></td>
+<td class="six sub-columns last" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; min-width: 0px; width: 50%; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 
+14px; margin: 0; padding: 0px 0px 10px;" align="left" valign="top"></td>
+<td class="expander" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; 
+margin: 0; padding: 0;" align="left" valign="top"></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="wrapper last" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; 
+padding: 0 0px 0px;" align="left" valign="top">
+<table class="three columns" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 130px; margin: 0px auto;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0 15px;" align="left" 
+valign="top"></td>
+<td class="expander" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; 
+margin: 0; padding: 0;" align="left" valign="top"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="row" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; position: relative; display: block;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td class="wrapper last" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; 
+padding: 0 0px 0px;" align="left" valign="top">
+<table class="twelve columns" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; margin: 0px auto;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0 15px;" align="left" 
+valign="top">
+<p style="color: #222222; font-family: Helvetica, Arial, sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; margin: 0px 0px 30px;" align="left"><span>If you need any help using Sage One, or any of our other tools, we&rsquo;re there to answer any questions you  
+have, so call us at 1-800-579-8547.</span></p>
+<p style="color: #222222; font-family: Helvetica, Arial, sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 14px; margin: 0px 0px 30px;" align="left"><strong>The Tools Team at BCSG</strong></p>
+</td>
+<td class="expander" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; 
+margin: 0; padding: 0;" align="left" valign="top"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="row" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; position: relative; display: block; background: #f2f2f2;" bgcolor="#F2F2F2">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<!-- Removed class="wrapper" from below td -->
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; background: #f2f2f2; margin: 0; 
+padding: 10px 0 0px 0px;" align="left" valign="top" bgcolor="#F2F2F2">
+<table class="two columns" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; margin: 0px auto; width: 60px !important;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0 5px 0 15px;" align="left" 
+valign="top"><img class="box-circle" style="width: 30px; outline: none; text-decoration: none; max-width: 100%; clear: both; display: block;" src="http://infostage.cloudsaasportal.com/rs/businesscentricsandbox/images/box-circle.jpg" alt="" align="left" /></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="wrapper last" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; width: 
+100%; background: #f2f2f2; margin: 0; padding: 10px 0px 0px;" align="left" valign="top" bgcolor="#F2F2F2">
+<table class="ten columns" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; margin: 0px auto;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top">
+<p style="font-size: 16px; color: #666666; font-family: Helvetica, Arial, sans-serif; font-weight: normal; text-align: left; line-height: 19px; margin: 7px 0px 10px;" align="left">Tools <span style="color: #333333;">Support</span></p>
+</td>
+<td class="expander" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; 
+margin: 0; padding: 0;" align="left" valign="top"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- Border starts --><!--   
+<table class="row" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; position: relative; display: block; padding: 0px;" _mce_style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 100%; position:   
+relative; display: block; padding: 0px;">
+<tr style="vertical-align: top; text-align: left; padding: 0;" _mce_style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td class="wrapper last" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal;   
+line-height: 19px; font-size: 14px; background: #f2f2f2; margin: 0; padding: 0;" _mce_style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif;   
+font-weight: normal; line-height: 19px; font-size: 14px; background: #f2f2f2; margin: 0; padding: 0;" align="left" bgcolor="#f2f2f2" valign="top">
+<table class="twelve columns" style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; margin: 0 auto; padding: 0;" _mce_style="border-spacing: 0; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; margin: 0 auto;   
+padding: 0;">
+<tr style="vertical-align: top; text-align: left; padding: 0;" _mce_style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin:  
+ 0; padding: 0;" _mce_style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;"   
+align="left" valign="top">
+<hr style="color: #d9d9d9; height: 1px; background: #d9d9d9; margin: 0; border: none;" _mce_style="color: #d9d9d9; height: 1px; background: #d9d9d9; margin: 0; border: none;" />
+</td>
+<td class="expander" style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight:   
+normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" _mce_style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif;   
+font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0;" align="left" valign="top"></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+--><!-- Border finishes --> 
+<table class="row footer" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; position: relative; display: block; background: #f2f2f2;" bgcolor="#F2F2F2">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<!-- Removed class="wrapper" from below td -->
+<td class="wrapper" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; background: 
+#f2f2f2; margin: 0; padding: 0px 0px 0px 20px;" align="left" valign="top" bgcolor="#F2F2F2">
+<table class="five columns" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 260px; margin: 0px auto;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="left" 
+valign="top">
+<table style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<!--
+<td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin:  
+ 0; padding: 0px 0px 10px;" _mce_style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 
+0px   0px 10px;" align="left" valign="top">
+<p style="color: #666666; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 9px; margin: 0 0 10px; padding: 0;" _mce_style="color: #666666; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left;   
+line-height: 19px; font-size: 9px; margin: 0 0 10px; padding: 0;" class="font-size-9" align="left">Email</p>
+</td>
+-->
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" align="left" valign="top">
+<p class="font-size-9" style="color: #666666; font-weight: bold; font-family: Helvetica, Arial, sans-serif; text-align: left; line-height: 19px; font-size: 10px; margin: 0px;" align="left"><span class="font-size-9" style="color: #666666; font-family: Helvetica, Arial, sans-serif; font-weight: 
+normal; text-align: left; line-height: 19px; font-size: 9px;">Email</span> tools@mastercardbusinessownertoolbox.ca</p>
+</td>
+</tr>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<!--
+<td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin:  
+ 0; padding: 0px 0px 10px;" _mce_style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 
+0px   0px 10px;" align="left" valign="top">
+<p style="color: #666666; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 9px; margin: 0 0 10px; padding: 0;" _mce_style="color: #666666; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left;   
+line-height: 19px; font-size: 9px; margin: 0 0 10px; padding: 0;" class="font-size-9" align="left">Call</p>
+</td>
+-->
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" align="left" valign="top">
+<p class="font-size-9" style="color: #666666; font-weight: bold; font-family: Helvetica, Arial, sans-serif; text-align: left; line-height: 19px; font-size: 10px; margin: 0px;" align="left"><span class="font-size-9" style="color: #666666; font-family: Helvetica, Arial, sans-serif; font-weight: 
+normal; text-align: left; line-height: 19px; font-size: 9px;">Call</span> (+1) 437 886 8452</p>
+</td>
+</tr>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<!--
+<td style="word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin:  
+ 0; padding: 0px 0px 10px;" _mce_style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 
+0px   0px 10px;" align="left" valign="top">
+<p style="color: #666666; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 9px; margin: 0 0 10px; padding: 0;" _mce_style="color: #666666; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; text-align: left;   
+line-height: 19px; font-size: 9px; margin: 0 0 10px; padding: 0;" class="font-size-9" align="left">Opening hours</p>
+</td>
+-->
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px;" align="left" valign="top">
+<p class="font-size-9" style="color: #666666; font-weight: bold; font-family: Helvetica, Arial, sans-serif; text-align: left; line-height: 19px; font-size: 10px; margin: 0px;" align="left"><span class="font-size-9" style="color: #666666; font-family: Helvetica, Arial, sans-serif; font-weight: 
+normal; text-align: left; line-height: 19px; font-size: 9px;">Opening hours</span> Monday - Friday 9:00am - 5:00pm</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="expander" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; 
+margin: 0; padding: 0;" align="left" valign="top"></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="wrapper last" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; 
+background: #f2f2f2; margin: 0; padding: 0px 0px 0px 20px;" align="left" valign="top" bgcolor="#F2F2F2">
+<table class="seven columns" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 260px; margin: 0px auto;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="left" 
+valign="top">
+<table style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left;">
+<!-- BCSG address start --> 
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<!--
+<td style="width: 30px !important; word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px;   
+font-size: 14px; margin: 0; padding: 0px 0px 10px;" _mce_style="width: 30px !important; word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal;   
+line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="left" valign="top"></td>
+-->
+<td style="width: 50px !important; word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: middle; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px  
+0px 10px;" align="left" valign="middle"><img style="outline: none; text-decoration: none; max-width: 100%; clear: both; display: block; width: 50px !important;" src="http://infostage.cloudsaasportal.com/rs/businesscentricsandbox/images/bcsg-circle.jpg" alt="" align="left" /></td>
+<td style="width: 230px !important; word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px  
+15px 0px 0px;" align="left" valign="top">
+<p class="font-size-9" style="color: #666666; font-family: Helvetica, Arial, sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 9px; margin: 0px;" align="left">&reg;2014 BCSG Business Centric Services Group Canada Inc | 1201-11871 Horseshoe Way Richmond BC V7A 5H5  
+Canada</p>
+</td>
+</tr>
+<!--   
+<tr style="vertical-align: top; text-align: left; padding: 0;" _mce_style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="width: 30px !important; word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px;   
+font-size: 14px; margin: 0; padding: 0px 0px 10px;" _mce_style="width: 30px !important; word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal;   
+line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="left" valign="top"><img style="width: 30px !important; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; max-width: 100%; float: left; clear: both; display: block;" _mce_style="width: 30px   
+!important; outline: none; text-decoration: none; max-width: 100%; float: left; clear: both; display: block;" src="http://infostage.cloudsaasportal.com/rs/businesscentricsandbox/images/bcsg-circle.jpg" _mce_src="http://infostage.cloudsaasportal.com/rs/businesscentricsandbox/images/bcsg-circle.jpg" 
+  alt="" align="left" /></td>
+</tr>
+--><!--   
+<tr style="vertical-align: top; text-align: left; padding: 0;" _mce_style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="width: 30px !important; word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px;   
+font-size: 14px; margin: 0; padding: 0px 0px 10px;" _mce_style="width: 30px !important; word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal;   
+line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="left" valign="top"></td>
+</tr>
+--><!-- Hack - need better markup - nested tables possibly --> 
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; height: 10px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; 
+margin: 0; padding: 0;" align="left" valign="top"></td>
+</tr>
+<!-- MasterCard address start --> 
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<!--
+<td style="width: 30px !important; word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px;   
+font-size: 14px; margin: 0; padding: 0 0 20px;" _mce_style="width: 30px !important; word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height:   
+19px; font-size: 14px; margin: 0; padding: 0 0 20px;" align="left" valign="top"></td>
+-->
+<td class="not-full-width" style="width: 50px !important; word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: middle; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; 
+margin: 0; padding: 0px 10px 10px 0px;" align="left" valign="middle"><img style="outline: none; text-decoration: none; max-width: 100%; clear: both; display: block; width: 50px !important;" src="http://infostage.cloudsaasportal.com/rs/businesscentricsandbox/images/mastercard-circle.jpg" alt="" 
+align="left" /></td>
+<td style="width: 280px !important; word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px  
+15px 0px 0px;" align="left" valign="top">
+<p class="font-size-9" style="color: #666666; font-family: Helvetica, Arial, sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 9px; margin: 0px;" align="left">&reg;2014 MasterCard | MasterCard Inc | 2 Bloor Street West Suite 1400 | Toronto, Ontario, M4W 3E2, Canada | 
+ All rights reserved | MasterCard, the MasterCard brand mark are registered trademarks of MasterCard International Incorporated</p>
+</td>
+</tr>
+<!--   
+<tr style="vertical-align: top; text-align: left; padding: 0;" _mce_style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td class="not-full-width" style="width: 30px !important; word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight:   
+normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 10px 10px 0px;" _mce_style="width: 30px !important; word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; 
+  font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 10px 10px 0px;" align="left" valign="top"><img style="width: 30px !important; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; max-width: 100%; float: left; clear: both; display: block;"   
+_mce_style="width: 30px !important; outline: none; text-decoration: none; max-width: 100%; float: left; clear: both; display: block;" src="http://infostage.cloudsaasportal.com/rs/businesscentricsandbox/images/mastercard-circle.jpg"   
+_mce_src="http://infostage.cloudsaasportal.com/rs/businesscentricsandbox/images/mastercard-circle.jpg" alt="" align="left" /></td>
+</tr>
+--><!--   
+<tr style="vertical-align: top; text-align: left; padding: 0;" _mce_style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="width: 30px !important; word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px;   
+font-size: 14px; margin: 0; padding: 0px 0px 10px;" _mce_style="width: 30px !important; word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal;   
+line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="left" valign="top"></td>
+</tr>
+<tr style="vertical-align: top; text-align: left; padding: 0;" _mce_style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="width: 30px !important; word-break: break-word; -webkit-hyphens: auto; -moz-hyphens: auto; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px;   
+font-size: 14px; margin: 0; padding: 0px 0px 10px;" _mce_style="width: 30px !important; word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal;   
+line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="left" valign="top"></td>
+</tr>
+-->
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- Very bottom of the footer start --> 
+<table class="row" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; position: relative; display: block;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td class="wrapper last" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; 
+background: #f2f2f2; margin: 0; padding: 0;" align="left" valign="top" bgcolor="#F2F2F2">
+<table class="twelve columns" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; margin: 0px auto;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 0px 10px;" align="center" 
+valign="top">
+<hr style="color: #d9d9d9; height: 1px; background: #d9d9d9; border: none;" />
+</td>
+<td class="expander" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; 
+margin: 0; padding: 0;" align="left" valign="top"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="row" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; position: relative; display: block;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td class="wrapper last" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; position: relative; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; 
+background: #f2f2f2; margin: 0; padding: 0;" align="left" valign="top" bgcolor="#F2F2F2">
+<table class="twelve columns" style="border-spacing: 0px; border-collapse: collapse; vertical-align: top; text-align: left; width: 580px; margin: 0px auto;">
+<tbody>
+<tr style="vertical-align: top; text-align: left; padding: 0;" align="left">
+<td style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; margin: 0; padding: 0px 15px 10px;" align="center" 
+valign="top">
+<p class="font-size-9" style="color: #666666; font-family: Helvetica, Arial, sans-serif; font-weight: normal; text-align: left; line-height: 19px; font-size: 9px; margin: 0px 0px 10px;" align="left">This e-mail is considered a transactional or relationship message, which is specifically excluded  
+from the laws regarding e-mail communication.
+  This email is sent on behalf of charles.crawford@gmail.com</p>
+</td>
+<td class="expander" style="word-break: break-word; hyphens: auto; border-collapse: collapse !important; vertical-align: top; text-align: left; visibility: hidden; width: 0px; color: #222222; font-family: 'Helvetica', 'Arial', sans-serif; font-weight: normal; line-height: 19px; font-size: 14px; 
+margin: 0; padding: 0;" align="left" valign="top"></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!-- container end below --></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</body>
+</html>
